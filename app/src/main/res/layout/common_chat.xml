@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="	#363636">
+
+    <ImageView
+        android:id="@+id/iv_robat_cancel"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:src="@drawable/cancel" />
+
+    <TextView
+        android:id="@+id/tv_robat_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/iv_robat_cancel"
+        android:text="mark"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/iv_robat_chat"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:padding="8dp"
+        android:src="@drawable/icon_chat_user" />
+</RelativeLayout>

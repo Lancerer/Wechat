@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lancer.wechat.fragment.ContactlistFragemnt">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/re_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <com.example.lancer.wechat.view.LetterView
+        android:id="@+id/letter_view"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true">
+
+    </com.example.lancer.wechat.view.LetterView>
+
+</RelativeLayout>

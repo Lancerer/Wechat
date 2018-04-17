@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/iv_item_wechat"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/tv_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/iv_item_wechat"
+        android:text="微信公众平台"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_item_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_title"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/iv_item_wechat"
+        android:text="[应用消息]"
+        android:layout_marginBottom="5dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:text="昨天" />
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="3dp"
+       android:layout_below="@+id/tv_item_time"
+        android:padding="2dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/lingsheng"/>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#C2C2C2"
+    android:layout_alignParentBottom="true"/>
+</RelativeLayout>
